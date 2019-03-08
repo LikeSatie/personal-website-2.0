@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Dosis"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Контакты</title>
+  </head>
+  <body>
+    <!-- Шапка -->
+    <header id="header-inner">
+      <div class="container">
+        <nav id="main-nav">
+          <img src="img/logo.jpg" alt="dmitry_karnatsky_logo" id="logo" />
+          <ul>
+            <li><a href="index.html">На главную</a></li>
+            <li><a href="about.html">Обо мне</a></li>
+            <li><a href="work.html">Мои работы</a></li>
+            <li><a href="contact.html" class="current">Контакты</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- Форма обратной связи -->
+    <section id="contact-a" class="text-center py-3">
+      <div class="container">
+        <h2 class="section-title">Форма обратной связи</h2>
+        <div class="bottom-line"></div>
+        <p class="lead">
+          Заполните, пожалуйста, поля ниже и я отвечу вам в течении часа
+        </p>
+        <form action="POST">
+          <input type="hidden" name="form-name" value="form 1" />
+          <div class="text-fields">
+            <input
+              type="text"
+              class="text-input name-input"
+              placeholder="Имя"
+            />
+            <input
+              type="text"
+              class="text-input subject-input"
+              placeholder="Предмет обсуждения"
+            />
+            <input
+              type="text"
+              class="text-input email-input"
+              placeholder="Электропочта"
+            />
+            <input
+              type="text"
+              class="text-input phone-input"
+              placeholder="Телефонный номер"
+            />
+            <textarea
+              name="message"
+              class="text-input message-input"
+              placeholder="Любая дополнительная информация"
+            ></textarea>
+            <div class="my-2">
+              <div>
+                <script
+                  type="text/javascript"
+                  async
+                  src="https://www.gstatic.com/recaptcha/api2/v1550471573786/recaptcha__ru.js"
+                ></script>
+                <script src="https://www.google.com/recaptcha/api.js"></script>
+                <div
+                  class="g-recaptcha"
+                  data-sitekey="6LdAvUIUAAAAAHjrjmjtNTcXyKm0WKwefLp-dQv9"
+                >
+                  <div>
+                    <iframe
+                      src="https://www.google.com/recaptcha/api/fallback?k=6LdAvUIUAAAAAHjrjmjtNTcXyKm0WKwefLp-dQv9&hl=ru&v=v1550471573786&t=41802"
+                      frameborder="0"
+                      scrolling="no"
+                    ></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button type="submit" class="btn-dark">Отправить</button>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
