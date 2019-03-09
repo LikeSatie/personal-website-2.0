@@ -712,6 +712,11 @@ img {
     text-align: justify;
   }
 
+  /* Галлерея работ work.html */
+  #work-a .items .item .item-text-title {
+    font-size: 1.75rem;
+  }
+
   /* Подвал */
   #main-footer {
     height: 15vh;
