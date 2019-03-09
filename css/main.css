@@ -207,7 +207,7 @@ input[class^='btn-']:hover {
 }
 
 body {
-  font-family: 'Dosis', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   line-height: 1.6;
   background: #fff;
 }
@@ -276,7 +276,21 @@ img {
 }
 #header-home .header-content h1 {
   font-size: 4rem;
+  font-weight: 300;
   line-height: 1.2;
+}
+
+.header-content p {
+  font-weight: 200;
+}
+
+.header-content .btn-light {
+  font-weight: 500;
+  border-radius: 3px;
+}
+
+.header-content .btn-light:hover {
+  color: #000;
 }
 
 #header-inner {
@@ -354,8 +368,8 @@ img {
 }
 #home-c .process-icon:hover {
   background: #ffbc00;
-  width: 80px;
-  height: 80px;
+  width: 72.5px;
+  height: 72.5px;
   line-height: 70px;
 }
 #home-c .process-icon:hover .process-step {
@@ -373,10 +387,16 @@ img {
   grid-area: bioimage;
 }
 
+.bio h4 {
+  padding: 1rem 0.8rem 1.25rem 0.8rem;
+  text-align: center;
+}
+
 #about-a .bio {
   grid-area: bio;
   border-left: 3px solid #ffbc00;
-  padding: 0.8rem;
+  padding: 1rem 0.8rem;
+  text-align: justify;
 }
 
 #about-a .award-1 {
@@ -450,6 +470,11 @@ img {
   grid-gap: 1.2rem;
   margin-bottom: 1.2rem;
 }
+
+.text-input {
+  font-family: 'Montserrat', sans-serif;
+}
+
 #contact-a .text-fields .name-input {
   grid-area: name;
 }
@@ -470,8 +495,22 @@ img {
   padding: 0.5rem 1rem;
 }
 
+#g-recaptcha {
+  width: 100vw;
+  margin: 0 0 0 -1.75rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+/* .g-recaptcha-container {
+} */
+
 #contact-a button[type='submit'] {
   width: 50%;
+  font-family: 'Montserrat', sans-serif;
 }
 
 #contact-b .contact-info {
