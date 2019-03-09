@@ -645,7 +645,7 @@ img {
   /* Меню */
   #header-home,
   #header-inner {
-    height: 50vh;
+    height: 55vh;
   }
 
   #main-nav ul {
@@ -657,40 +657,103 @@ img {
     margin-top: 1rem;
   }
 
+  #main-nav ul a {
+    font-size: 1.25rem;
+    letter-spacing: 0.05rem;
+  }
+
   /* Специализация index.html */
+  #home-a h2 {
+    font-size: 1.75rem;
+    font-weight: 200;
+  }
   /* Информация обо мне about.html */
+  #about-a h2 {
+    font-size: 2rem;
+    font-weight: 200;
+  }
   /* Раздел уровня владения технологиями about.html */
   /* Форма обратной связи contact.html */
   /* Рабочий процесс index.html */
-  #home-a h2,
-  #about-a h2,
   #about-b h2,
   #about-b h4,
-  #about-d h2,
-  #contact-a h2,
   #home-c h2 {
-    font-size: 1.25rem;
+    font-size: 1.3rem;
     font-weight: 400;
   }
 
-  #home-a .lead,
-  #about-a .lead,
-  #about-d p,
-  #contact-a p,
+  #contact-a h2 {
+    font-size: 2rem;
+    font-weight: 200;
+  }
+
+  #home-a .lead {
+    width: 90vw;
+    font-size: 1.3rem;
+    font-weight: 300;
+  }
+
+  #about-a .lead {
+    width: 90vw;
+    font-size: 1.75rem;
+    font-weight: 300;
+  }
+
   #home-c .lead {
-    width: 80vw;
-    font-size: 1.25rem;
+    width: 90vw;
+    font-size: 1.3rem;
     font-weight: 400;
+  }
+
+  #contact-a p {
+    width: 90vw;
+    font-size: 1.3rem;
+    font-weight: 300;
+  }
+
+  #contact-a button[type='submit'] {
+    font-size: 1.125rem;
+    text-transform: uppercase;
+    padding: 0.8rem 1rem;
   }
 
   #about-a .about-info .bio {
-    width: 84.5vw;
+    width: 86.9vw;
     padding: 1rem 0.4rem;
   }
 
+  #about-a .about-info .bio h4 {
+    font-size: 1.3rem;
+  }
+
+  #about-a .about-info p,
   #about-a .about-info .bio p {
-    line-height: 1.4rem;
+    font-size: 1.125rem;
+    line-height: 1.8rem;
     text-justify: inter-character;
+  }
+
+  #about-a .bio .bio-highlight {
+    font-weight: 500;
+  }
+
+  #about-b h4 {
+    font-size: 1.125rem;
+  }
+
+  #about-d h2 {
+    font-size: 2rem;
+    font-weight: 200;
+  }
+
+  #about-d .container p.lead {
+    width: 90vw;
+    font-size: 1.75rem;
+    font-weight: 300;
+  }
+
+  #about-d .testimonials ul:nth-child(2) {
+    font-size: 1.125rem;
   }
 
   #home-a .specials > div {
@@ -706,13 +769,14 @@ img {
   }
 
   #home-a .specials > div > i,
-  #home-a .specials > div > h3,
-  #home-a .specials > div > p {
+  #home-a .specials > div > h3 {
     padding: 0.5rem 0;
   }
 
   #home-a .specials > div > p {
-    width: 70vw;
+    width: 80vw;
+    padding: 0.5rem 0;
+    font-size: 1.125rem;
     text-align: justify;
   }
 
@@ -733,6 +797,12 @@ img {
   }
 
   /* Галлерея работ work.html */
+  #work-a .container p.lead {
+    width: 90vw;
+    font-size: 1.5rem;
+    font-weight: 200;
+  }
+
   #work-a .items .item .item-text-title {
     font-size: 1.75rem;
   }
@@ -742,9 +812,29 @@ img {
     width: 73.5vw;
   }
 
+  /* Контактная информация contact.html */
+  #contact-b {
+    padding: 1rem 0;
+  }
+
+  #contact-b .container p {
+    padding: 1.25rem 0 0.75rem 0;
+    font-size: 1.25rem;
+  }
+
+  #contact-b .container p:last-child {
+    margin-bottom: 0;
+  }
+
+  #contact-c h1 {
+    font-size: 2.5rem;
+    line-height: 3.25rem;
+    font-family: 'Poiret One', cursive;
+  }
+
   /* Подвал */
   #main-footer {
-    height: 15vh;
+    height: 11vh;
   }
 
   #main-footer p {
