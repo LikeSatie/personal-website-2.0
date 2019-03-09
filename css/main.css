@@ -299,6 +299,8 @@ img {
   border-bottom: 3px solid #ffbc00;
 }
 
+/* Специализация */
+
 #home-a .specials {
   margin-top: 3rem;
   display: grid;
@@ -308,6 +310,12 @@ img {
 #home-a .specials .fas {
   color: #ffbc00;
   padding-bottom: 0.4rem;
+}
+
+#home-a p {
+  width: 65vw;
+  margin: 0 auto;
+  text-align: center;
 }
 
 #home-b .stats {
@@ -630,6 +638,27 @@ img {
     flex-direction: column;
     padding: 1rem;
     height: 5rem;
+  }
+}
+
+@media (max-width: 320px) {
+  /* Меню */
+  #header-home {
+    height: 42.5vh;
+  }
+
+  #main-nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
+
+  /* Специализация */
+  #home-a h2 {
+    font-size: 1.125rem;
+    font-weight: 400;
   }
 }
 
