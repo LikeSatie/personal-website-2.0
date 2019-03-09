@@ -641,6 +641,132 @@ img {
   }
 }
 
+@media (max-width: 375px) {
+  /* Меню */
+  #header-home,
+  #header-inner {
+    height: 50vh;
+  }
+
+  #main-nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-top: 1rem;
+  }
+
+  /* Специализация index.html */
+  /* Информация обо мне about.html */
+  /* Раздел уровня владения технологиями about.html */
+  /* Форма обратной связи contact.html */
+  /* Рабочий процесс index.html */
+  #home-a h2,
+  #about-a h2,
+  #about-b h2,
+  #about-b h4,
+  #about-d h2,
+  #contact-a h2,
+  #home-c h2 {
+    font-size: 1.25rem;
+    font-weight: 400;
+  }
+
+  #home-a .lead,
+  #about-a .lead,
+  #about-d p,
+  #contact-a p,
+  #home-c .lead {
+    width: 80vw;
+    font-size: 1.25rem;
+    font-weight: 400;
+  }
+
+  #about-a .about-info .bio {
+    width: 84.5vw;
+    padding: 1rem 0.4rem;
+  }
+
+  #about-a .about-info .bio p {
+    line-height: 1.4rem;
+    text-justify: inter-character;
+  }
+
+  #home-a .specials > div {
+    padding: 0.25rem 0;
+  }
+
+  #home-a .specials .fas {
+    font-size: 3rem;
+  }
+
+  #home-a .specials h3 {
+    font-size: 1.25rem;
+  }
+
+  #home-a .specials > div > i,
+  #home-a .specials > div > h3,
+  #home-a .specials > div > p {
+    padding: 0.5rem 0;
+  }
+
+  #home-a .specials > div > p {
+    width: 70vw;
+    text-align: justify;
+  }
+
+  /* Рабочий процесс */
+  #home-c h2 {
+    padding: 0 0 2rem 0;
+  }
+
+  #home-c .lead {
+    width: 87.5vw;
+    margin: 0 auto;
+    text-align: justify;
+  }
+
+  #home-c .process p {
+    margin-top: 0.5rem;
+    font-size: 1.125rem;
+  }
+
+  /* Галлерея работ work.html */
+  #work-a .items .item .item-text-title {
+    font-size: 1.75rem;
+  }
+
+  #contact-a .text-fields input,
+  #contact-a .text-fields textarea {
+    width: 73.5vw;
+  }
+
+  /* Подвал */
+  #main-footer {
+    height: 15vh;
+  }
+
+  #main-footer p {
+    display: none;
+  }
+
+  #main-footer .footer-content .container .social {
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    margin: 1rem 0;
+    padding: 0;
+  }
+
+  #main-footer .footer-content .social .fab {
+    margin: 0 0.25rem;
+    padding: 0.5rem;
+  }
+}
+
 @media (max-width: 320px) {
   /* Меню */
   #header-home,
@@ -691,6 +817,10 @@ img {
 
   #home-a .specials > div {
     padding: 0.25rem 0;
+  }
+
+  #home-a .specials .fas {
+    font-size: 2.5rem;
   }
 
   #home-a .specials > div > i,
