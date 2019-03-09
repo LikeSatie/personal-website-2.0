@@ -659,18 +659,21 @@ img {
   /* Специализация index.html */
   /* Информация обо мне about.html */
   /* Раздел уровня владения технологиями about.html */
+  /* Форма обратной связи contact.html */
   #home-a h2,
   #about-a h2,
   #about-b h2,
   #about-b h4,
-  #about-d h2 {
+  #about-d h2,
+  #contact-a h2 {
     font-size: 1.125rem;
     font-weight: 400;
   }
 
   #home-a .lead,
   #about-a .lead,
-  #about-d p {
+  #about-d p,
+  #contact-a p {
     width: 80vw;
     font-size: 1.125rem;
     font-weight: 400;
@@ -715,6 +718,11 @@ img {
   /* Галлерея работ work.html */
   #work-a .items .item .item-text-title {
     font-size: 1.75rem;
+  }
+
+  #contact-a .text-fields input,
+  #contact-a .text-fields textarea {
+    width: 73.5vw;
   }
 
   /* Подвал */
