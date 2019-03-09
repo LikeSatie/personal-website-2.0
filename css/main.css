@@ -643,8 +643,9 @@ img {
 
 @media (max-width: 320px) {
   /* Меню */
-  #header-home {
-    height: 42.5vh;
+  #header-home,
+  #header-inner {
+    height: 65vh;
   }
 
   #main-nav ul {
@@ -655,10 +656,84 @@ img {
     align-items: center;
   }
 
-  /* Специализация */
-  #home-a h2 {
+  /* Специализация index.html */
+  /* Информация обо мне about.html */
+  /* Раздел уровня владения технологиями about.html */
+  #home-a h2,
+  #about-a h2,
+  #about-b h2,
+  #about-b h4,
+  #about-d h2 {
     font-size: 1.125rem;
     font-weight: 400;
+  }
+
+  #home-a .lead,
+  #about-a .lead,
+  #about-d p {
+    width: 80vw;
+    font-size: 1.125rem;
+    font-weight: 400;
+  }
+
+  #about-a .about-info .bio {
+    width: 84.5vw;
+    padding: 1rem 0.4rem;
+  }
+
+  #about-a .about-info .bio p {
+    line-height: 1.4rem;
+    text-justify: inter-character;
+  }
+
+  #home-a .specials > div {
+    padding: 0.25rem 0;
+  }
+
+  #home-a .specials > div > i,
+  #home-a .specials > div > h3,
+  #home-a .specials > div > p {
+    padding: 0.5rem 0;
+  }
+
+  #home-a .specials > div > p {
+    width: 70vw;
+    text-align: justify;
+  }
+
+  /* Рабочий процесс */
+  #home-c h2 {
+    padding: 0 0 2rem 0;
+  }
+
+  #home-c .lead {
+    width: 87.5vw;
+    margin: 0 auto;
+    text-align: justify;
+  }
+
+  /* Подвал */
+  #main-footer {
+    height: 15vh;
+  }
+
+  #main-footer p {
+    display: none;
+  }
+
+  #main-footer .footer-content .container .social {
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    margin: 1rem 0;
+    padding: 0;
+  }
+
+  #main-footer .footer-content .social .fab {
+    margin: 0 0.25rem;
+    padding: 0.5rem;
   }
 }
 
