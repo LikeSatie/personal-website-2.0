@@ -641,6 +641,231 @@ img {
   }
 }
 
+@media (max-width: 414px) {
+  /* Меню */
+  #header-home,
+  #header-inner {
+    height: 50vh;
+  }
+
+  #main-nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-top: 1rem;
+  }
+
+  #main-nav ul a {
+    font-size: 1.25rem;
+    letter-spacing: 0.05rem;
+  }
+
+  /* Специализация index.html */
+  #home-a h2 {
+    font-size: 1.6rem;
+    font-weight: 200;
+  }
+  /* Информация обо мне about.html */
+  #about-a h2 {
+    font-size: 2rem;
+    font-weight: 200;
+  }
+  /* Раздел уровня владения технологиями about.html */
+  /* Форма обратной связи contact.html */
+  /* Рабочий процесс index.html */
+  #about-b h2,
+  #about-b h4,
+  #home-c h2 {
+    font-size: 1.3rem;
+    font-weight: 400;
+  }
+
+  #contact-a h2 {
+    font-size: 2rem;
+    font-weight: 200;
+  }
+
+  #home-a .lead {
+    width: 90vw;
+    font-size: 1.3rem;
+    font-weight: 300;
+  }
+
+  #about-a .lead {
+    width: 90vw;
+    font-size: 1.75rem;
+    font-weight: 300;
+  }
+
+  #home-c .lead {
+    width: 90vw;
+    font-size: 1.3rem;
+    font-weight: 400;
+  }
+
+  #contact-a p {
+    width: 90vw;
+    font-size: 1.3rem;
+    font-weight: 300;
+  }
+
+  #contact-a .text-fields input {
+    width: 70vw;
+  }
+
+  #contact-a button[type='submit'] {
+    font-size: 1.125rem;
+    text-transform: uppercase;
+    padding: 0.8rem 1rem;
+  }
+
+  #about-a .about-info .bio {
+    width: 86.9vw;
+    padding: 1rem 0.4rem;
+  }
+
+  #about-a .about-info .bio h4 {
+    font-size: 1.3rem;
+  }
+
+  #about-a .about-info p,
+  #about-a .about-info .bio p {
+    font-size: 1.125rem;
+    line-height: 1.8rem;
+    text-justify: inter-character;
+  }
+
+  #about-a .bio .bio-highlight {
+    font-weight: 500;
+  }
+
+  #about-b h4 {
+    font-size: 1.125rem;
+  }
+
+  #about-d h2 {
+    font-size: 2rem;
+    font-weight: 200;
+  }
+
+  #about-d .container p.lead {
+    width: 90vw;
+    font-size: 1.75rem;
+    font-weight: 300;
+  }
+
+  #about-d .testimonials ul:nth-child(2) {
+    font-size: 1.125rem;
+  }
+
+  #home-a .specials > div {
+    padding: 0.25rem 0;
+  }
+
+  #home-a .specials .fas {
+    font-size: 3rem;
+  }
+
+  #home-a .specials h3 {
+    font-size: 1.25rem;
+  }
+
+  #home-a .specials > div > i,
+  #home-a .specials > div > h3 {
+    padding: 0.5rem 0;
+  }
+
+  #home-a .specials > div > p {
+    width: 80vw;
+    padding: 0.5rem 0;
+    font-size: 1.125rem;
+    text-align: justify;
+  }
+
+  /* Рабочий процесс */
+  #home-c h2 {
+    padding: 0 0 2rem 0;
+  }
+
+  #home-c .lead {
+    width: 80vw;
+    margin: 0 auto;
+    padding: 0 0 2rem 0;
+    text-align: left;
+  }
+
+  #home-c .process p {
+    margin-top: 0.5rem;
+    font-size: 1.125rem;
+  }
+
+  /* Галлерея работ work.html */
+  #work-a .container p.lead {
+    width: 90vw;
+    font-size: 1.5rem;
+    font-weight: 200;
+  }
+
+  #work-a .items .item .item-text-title {
+    font-size: 1.75rem;
+  }
+
+  #work-a .container .items .item-image img {
+    background-size: cover;
+  }
+
+  #contact-a .text-fields input,
+  #contact-a .text-fields textarea {
+    width: 73.5vw;
+  }
+
+  /* Контактная информация contact.html */
+  #contact-b {
+    padding: 1rem 0;
+  }
+
+  #contact-b .container p {
+    padding: 1.25rem 0 0.75rem 0;
+    font-size: 1.25rem;
+  }
+
+  #contact-b .container p:last-child {
+    margin-bottom: 0;
+  }
+
+  #contact-c h1 {
+    font-size: 2.5rem;
+    line-height: 3.25rem;
+    font-family: 'Poiret One', cursive;
+  }
+
+  /* Подвал */
+  #main-footer {
+    height: 11vh;
+  }
+
+  #main-footer p {
+    display: none;
+  }
+
+  #main-footer .footer-content .container .social {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  #main-footer .footer-content .social .fab {
+    margin: 0 0.25rem;
+    padding: 0.5rem;
+  }
+}
+
 @media (max-width: 375px) {
   /* Меню */
   #header-home,
