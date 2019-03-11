@@ -393,6 +393,8 @@ img {
 
 #about-a .bio-image {
   grid-area: bioimage;
+  max-width: 395px;
+  margin: 0 auto;
 }
 
 .bio h4 {
