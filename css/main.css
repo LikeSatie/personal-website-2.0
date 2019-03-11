@@ -562,12 +562,119 @@ img {
   color: #333;
 }
 
-@media (max-width: 800px) {
+@media (min-width: 800px) {
   #header-home {
-    height: 30rem;
+    height: 70vh;
   }
   #header-home .header-content {
     padding-top: 5rem;
+  }
+
+  #home-a .container .specials {
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 801px) {
+  #header-home {
+    height: 70vh;
+  }
+  #header-home .header-content {
+    padding-top: 5rem;
+  }
+
+  #home-a .container .specials {
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
+}
+
+@media (min-width: 500px) {
+  #main-nav {
+    flex-direction: column;
+    align-items: center;
+  }
+  #main-nav li {
+    padding: 1rem;
+  }
+  #header-home {
+    height: 10rem;
+    border-bottom: 3px solid #ffbc00;
+    background-position: 20% 30%;
+  }
+  #header-home .header-content {
+    display: none;
+  }
+  #header-inner {
+    height: 10rem;
+  }
+
+  #home-a .container .specials {
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
+
+  #home-a .specials,
+  #home-b .stats,
+  #home-c .process,
+  #about-d .testimonials,
+  #contact-b .contact-info,
+  .items {
+    grid-template-columns: 1fr;
+  }
+  #home-a .specials div {
+    border-bottom: 1px #f4f4f4 solid;
+    padding-bottom: 1rem;
+  }
+  #home-a .specials div:last-child {
+    border: none;
+    padding-bottom: 0;
+  }
+  #home-b .stats div {
+    padding: 2rem 0 1rem 0;
+  }
+  #about-a .about-info {
+    grid-template-areas: 'bioimage' 'bio' 'aw1' 'aw2' 'aw3';
+  }
+  #about-c {
+    display: none;
+  }
+  #contact-a .text-fields {
+    grid-template-areas: 'name' 'subject' 'email' 'phone' 'message';
+  }
+  #contact-b div {
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px #555 solid;
+  }
+  #contact-b div:last-child {
+    border: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  #contact-c h1 {
+    font-size: 2rem;
+  }
+  #main-footer {
+    height: 7rem;
+  }
+  #main-footer .footer-content {
+    flex-direction: column;
+    padding: 1rem;
+    height: 5rem;
   }
 }
 
@@ -590,6 +697,16 @@ img {
   #header-inner {
     height: 10rem;
   }
+
+  #home-a .container .specials {
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
+
   #home-a .specials,
   #home-b .stats,
   #home-c .process,
@@ -700,9 +817,12 @@ img {
   }
 
   #home-c .lead {
-    width: 90vw;
+    width: 88vw;
     font-size: 1.3rem;
     font-weight: 400;
+    text-align: justify;
+    word-wrap: break-word;
+    word-break: break-word;
   }
 
   #contact-a p {
@@ -790,13 +910,6 @@ img {
   /* Рабочий процесс */
   #home-c h2 {
     padding: 0 0 2rem 0;
-  }
-
-  #home-c .lead {
-    width: 80vw;
-    margin: 0 auto;
-    padding: 0 0 2rem 0;
-    text-align: left;
   }
 
   #home-c .process p {
@@ -887,6 +1000,7 @@ img {
 
   #main-nav ul a {
     font-size: 1.25rem;
+    font-weight: 300;
     letter-spacing: 0.05rem;
   }
 
@@ -931,6 +1045,12 @@ img {
     width: 90vw;
     font-size: 1.3rem;
     font-weight: 400;
+  }
+
+  #contact-a .text-fields input,
+  #contact-a .text-fields textarea {
+    width: 75.5vw;
+    margin-left: -0.5rem;
   }
 
   #contact-a p {
@@ -1035,11 +1155,6 @@ img {
     font-size: 1.75rem;
   }
 
-  #contact-a .text-fields input,
-  #contact-a .text-fields textarea {
-    width: 73.5vw;
-  }
-
   /* Контактная информация contact.html */
   #contact-b {
     padding: 1rem 0;
@@ -1093,11 +1208,13 @@ img {
   }
 
   #main-nav ul {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
+    text-align: center;
+  }
+
+  #main-nav a {
+    padding-bottom: 0.25rem;
+    border-bottom: 1px transparent solid;
+    border-radius: 1px;
   }
 
   /* Специализация index.html */
@@ -1133,6 +1250,10 @@ img {
     text-justify: inter-character;
   }
 
+  #home-a .container {
+    padding: 0 1rem;
+  }
+
   #home-a .specials > div {
     padding: 0.25rem 0;
   }
@@ -1148,7 +1269,7 @@ img {
   }
 
   #home-a .specials > div > p {
-    width: 70vw;
+    width: 85vw;
     text-align: justify;
   }
 
@@ -1168,9 +1289,32 @@ img {
     font-size: 1.75rem;
   }
 
+  #contact-a .container {
+    padding: 0 1rem;
+  }
+
   #contact-a .text-fields input,
   #contact-a .text-fields textarea {
-    width: 73.5vw;
+    width: 75.5vw;
+    margin-left: -0.5rem;
+  }
+
+  #contact-a #g-recaptcha {
+    margin-left: -1.75rem;
+  }
+
+  #contact-a .container button {
+    padding: 0.8rem 0.5rem;
+    font-size: 1rem;
+  }
+
+  #contact-b .container.contact-info {
+    width: 100vw;
+    padding: 0;
+  }
+
+  #contact-b .container.contact-info div:first-child p {
+    font-size: 1.1rem;
   }
 
   /* Подвал */
